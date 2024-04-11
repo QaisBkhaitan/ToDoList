@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+.doList{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    box-shadow: black 1px;
+    border-radius: 10px;
+}
+.doList  .add{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 3px;
+}
+ul{
+    list-style: none;
+}
+.task{
+    display: flex;
+    gap: 10px;
+}
+.crossed-out {
+    text-decoration-line: line-through;
+}
